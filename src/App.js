@@ -58,7 +58,6 @@ if (localStorage.getItem("todo") === null) {
     }
     console.log(mytodo)
     settodo([...todos,mytodo])
-    //  settodo([...todos, mytodo]), it looks like you're using the spread operator (...) to create a new array containing all the elements of the existing todos array plus a new element mytodo. This is a common pattern in React for updating state in a way that preserves the immutability of the original state.
     console.log(todos)
    
   }
